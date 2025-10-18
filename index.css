@@ -152,3 +152,6 @@ text-align: center;
     text-decoration: none;
     color: grey;
 }
+#nav ul li a:hover{
+    color: blue;
+}
