@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile card</title>
+    <link rel="stylesheet" href="Profile-card.css">
+</head>
+
+<body class="body">
+     <article data-testid="test-profile-card" id="article" >
+        <figure>
+            <img src="assets/WhatsApp Image 2025-10-17 at 20.50.03_f911fd62.jpg" alt="" id="profilepic">
+        </figure>
+            <h2 data-testid="test-user-name">
+                Usideme williams
+            </h2>
+            
+                <button class="clock-btn">
+                    <span>⏲️</span>
+                    <span data-testid="test-user-time" id="clock">⏲</span>
+                </button>
+            
+            <p data-testid="test-user-bio">
+               Passionate Frontend Developer with a focus on creating clean, responsive, and user-friendly web interfaces. Currently expanding my skills in backend development to become a well-rounded Full Stack Developer. Dedicated, curious, and continuously learning, with a keen interest in technology and design.
+            </p>
+            
+           <div class="hobbies-dislikes">
+             <section data-testid="test-user-hobbies" id="hobbies">
+                <ul>
+                    <h3>Hobbies</h3>
+                    <li>Coding</li>
+                    <li>anime</li>
+                    <li>Comics</li>
+                </ul>
+            </section>
+            <section data-testid="test-user-dislikes" id="dislikes">
+                
+                <ul>
+                    <h3>Dislikes</h3>
+                     <li>Rudeness</li>
+                     <li>Lazyness</li>   
+                     <li>Loud people</li>
+                </ul>
+            </section>
+           </div>
+            <footer class="footer">
+                <h3>Socials</h3>
+            <nav data-testid="test-user-social-links" aria-label="Social media links" id="nav">
+              <ul>
+                <li><a href="">Git hub</a></li>
+                <li><a href="">X</a></li>
+              </ul>
+            </nav>
+            </footer>
+     </article>
+     <script src="Profile-card.js"></script>
+</body>
+
+</html>
